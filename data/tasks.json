@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Organizar backlog semanal (atualizado)",
+    "description": "Adicionado novo item de revisão",
+    "completed": true,
+    "priority": "medium"
+  }
+]
