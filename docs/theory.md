@@ -1,6 +1,13 @@
+
+---
+
 # 📘 Documentação Teórica – Projeto AgilTaskFlow
 
-1. Visão Geral do Projeto
+---
+
+# 1. Visão Geral do Projeto
+
+---
 
 ## 🎯 Objetivo Principal
 
@@ -24,7 +31,11 @@ O projeto implementa um CRUD completo de tarefas, com armazenamento em arquivo J
 
 ---
 
-2. Metodologia Ágil Aplicada
+# 2. Abordagem Aplicada
+
+---
+
+## 🧩 Metodologia Ágil Estruturada
 
 Foi utilizada uma abordagem híbrida baseada em Kanban, utilizando o GitHub Projects como ferramenta visual de fluxo de trabalho. Foram definidas três colunas principais:
 
@@ -36,7 +47,11 @@ Cada cartão do quadro representou entregáveis reais do projeto, como: implemen
 
 ---
 
-3. Importância da Modelagem
+# 3. Construção do Código
+
+---
+
+## ❗️ Importância da Modelagem
 
 Antes da construção do código, a modelagem contribuiu para estruturar melhor requisitos e alinhamento sobre o comportamento esperado do sistema. Os diagramas UML facilitaram:
 
@@ -46,9 +61,11 @@ Antes da construção do código, a modelagem contribuiu para estruturar melhor 
 
 ---
 
-4. Diagramas UML
+# 4. Diagramas UML
 
-## 🔹 Diagrama de Casos de Uso
+---
+
+## 📊 Diagrama de Casos de Uso
 
 Representa o relacionamento entre o usuário e o sistema:
 
@@ -71,9 +88,9 @@ U --> PT
 
 @enduml
 
---
+---
 
-## 🔹 Diagrama de Classes
+## 📊 Diagrama de Classes
 
 Mostra a organização estrutural das principais classes do sistema:
 
@@ -100,11 +117,16 @@ class TaskManager {
 }
 
 TaskManager "1" *-- "many" Task
+
 @enduml
 
 ---
 
-5. Mudança de Escopo
+# 5. Mudança de Escopo
+
+---
+
+## 🔄 Atualização do Plano
 
 Durante o desenvolvimento, foi adicionada a funcionalidade de prioridade, simulando evolução natural de requisito em ambiente ágil. Essa mudança demandou:
 
@@ -115,14 +137,22 @@ Durante o desenvolvimento, foi adicionada a funcionalidade de prioridade, simula
 
 ---
 
-6. Testes Automatizados
+# 6. Testes Automatizados
+
+---
+
+## 🧪 Integração Contínua
 
 Os testes foram escritos em Pytest para validar o funcionamento correto do CRUD com persistência.
 Eles asseguram o comportamento esperado nas rotinas de criação, edição, exclusão, tratamento de erros e funcionamento da funcionalidade de prioridade, onde os testes foram integrados ao GitHub Actions, assegurando CI/CD contínuo e qualidade de entrega.
 
 ---
 
-7. Evidências do GitHub
+# 7. Evidências do GitHub
+
+---
+
+## 🧾 Registro de Dados 
 
 - Kanban organizado em To Do → In Progress → Done
 - Mais de 10 commits semânticos registrados
@@ -136,13 +166,17 @@ Eles asseguram o comportamento esperado nas rotinas de criação, edição, excl
 
 8. Conclusão
 
+---
+
 O AgilTaskFlow sintetiza, de forma prática e aplicada, os conceitos fundamentais da Engenharia de Software moderna. 
 
 Tendo uma modelagem estruturada, planejamento ágil, implementação iterativa, testes automatizados, CI/CD, documentação e entrega final — o ciclo completo de desenvolvimento profissional foi colocado em prática de ponta a ponta.
 
 ---
 
-👨‍💻 Autor
+# 👨‍💻 Autor
+
+---
 
 **Lucas Ferreira da Silva**
 
