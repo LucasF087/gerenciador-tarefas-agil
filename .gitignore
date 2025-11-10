@@ -1,0 +1,25 @@
+# Ambientes virtuais
+venv/
+.venv/
+
+# Cache de Python
+__pycache__/
+.pytest_cache/
+
+# Arquivos temporários e de build
+*.zip
+*.log
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Arquivos de configuração local
+.env
+
+# Dados e backups
+data/tasks.json
+
+# Configurações e relatórios de IDEs
+.vscode/
+.idea/
