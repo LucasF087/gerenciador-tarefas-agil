@@ -37,7 +37,7 @@ O **AgilTaskFlow** oferece as seguintes funcionalidades principais:
 
 ---
 
-## 🧩 Metodologia e Mudança de Escopo
+## 🧩 Metodologia Ágil Utilizada (Kanban)
 
 Durante o desenvolvimento, foi utilizada a metodologia **Kanban**, organizada no GitHub Projects, com as colunas:
 
@@ -47,7 +47,27 @@ Durante o desenvolvimento, foi utilizada a metodologia **Kanban**, organizada no
 
 Cada card representou uma etapa ou tarefa do projeto, acompanhando o progresso ao longo do ciclo de desenvolvimento.
 
-Durante o processo, foi realizada uma **mudança de escopo planejada**, que incluiu o acréscimo do campo **“prioridade”** nas tarefas — representando a adaptação a novas demandas dentro de um ambiente ágil.
+---
+
+## 🔄 Mudança de Escopo
+
+Durante o desenvolvimento do projeto foi simulada uma mudança de escopo, conforme exigido nos requisitos da entrega. A alteração escolhida foi a implementação do campo **priority** dentro das tarefas, permitindo que o usuário atribua níveis de prioridade para cada Task, aumentando o controle de foco, planejamento e impacto sobre o fluxo de trabalho.
+
+### Justificativa
+No contexto real de engenharia de software, mudanças de requisitos são constantes e ciclos iterativos são necessários para adaptar o produto ao contexto de negócio. A inclusão da prioridade atendeu uma necessidade de melhor organização e alinhamento com práticas ágeis (como Kanban, Scrum ou Scrumban), permitindo que o sistema diferenciase tarefas importantes de tarefas triviais.
+
+### Alteração Realizada
+- Nova propriedade `priority` adicionada na classe `Task`.
+- Persistência atualizada no arquivo JSON.
+- Endpoints da API atualizados para receber e retornar prioridades.
+- Testes ajustados para cobrir funcionamento da nova feature.
+
+### Evidências
+- Novo card criado no Kanban representando a mudança de escopo (print presente em `/docs/prints/kanban_new_card_scope.png`).
+- Commit correspondente à mudança: *hash do commit que implementou esta feature* (ex: `a88c775`).
+- README atualizado incluindo esta explicação.
+
+Essa mudança reflete uma adaptação real de requisitos dentro de um ciclo ágil com controle via Kanban e versionamento via GitHub.
 
 ---
 
