@@ -141,7 +141,10 @@ python src/app.py
 $env:FLASK_APP = "src.app"
 
 ```
-flask run
+
+---
+
+🌐 **Processo de Execução do servidor de desenvolvimento via Flask.** 
 
 ---
 
@@ -175,13 +178,16 @@ Resultado esperado:
 
 curl -X POST http://127.0.0.1:5000/api/tasks -H "Content-Type: application/json" -d "{\"title\":\"Revisar backlog\",\"description\":\"Organizar entregas da sprint\"}"
 
+
 🔹 **Listar tarefas (GET)**
 
 curl http://127.0.0.1:5000/api/tasks
 
+
 🔹 **Atualizar tarefa (PUT)**
 
 curl -X PUT http://127.0.0.1:5000/api/tasks/1 -H "Content-Type: application/json" -d "{\"title\":\"Organizar backlog semanal (atualizado)\",\"description\":\"Adicionado novo item de revisão\",\"completed\":true}"
+
 
 🔹 **Excluir tarefa (DELETE)**
 
