@@ -230,7 +230,7 @@ Essas imagens comprovam o funcionamento completo do ciclo ágil e a execução c
 - Execução dos testes locais e no GitHub Actions;
 - Evidências de mudança de escopo e conclusões finais.
 
-📎 Link do vídeo: (adicionar aqui quando disponível)
+📎 Link do vídeo via Google Drive: (https://drive.google.com/drive/folders/17H-sATHA-xfhypF21Aarg4QX96OWTeXX?usp=sharing)
 
 ---
 
